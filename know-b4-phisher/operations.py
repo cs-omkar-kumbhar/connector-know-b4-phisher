@@ -68,7 +68,7 @@ def get_params(params):
     for k, v in params.items():
         if v is False or v == 0 or v:
             new_params[k] = v
-    logger.error(f"updated params are: {new_params}")
+    logger.info(f"updated params are: {new_params}")
     return new_params
 
 
